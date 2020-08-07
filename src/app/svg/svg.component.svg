@@ -7,7 +7,7 @@
   <button (click) = "toggleCollapse4()"><img src="assets/images/button5.png"></button>
   <button (click) = "toggleCollapse5()"><img src="assets/images/button6.png"></button>
 </div>
-<div  style="width: 100px;">
+<div >
 <svg
    id="svg"
    version="1.1"
