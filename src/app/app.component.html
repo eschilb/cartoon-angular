@@ -1,18 +1,15 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <div class="card bg-light my-5">
+      <div class="card my-5 bg-dark">
         <div class="card-body">
-          <h2 class="card-title text-center py-3">{{ title }}</h2>
+          <h2 class="card-title text-center py-3 text-light" >{{ title }}</h2>
           <ul class="text-center list-inline py-3">
-<!--             <li class="list-inline-item">
-              <a *ngFor="let c of cartoons" routerLink="/detail/{{c.id}}" class="btn btn-info">{{c.id}}</a>
-                </li> -->
             <li class="list-inline-item">
-              <a routerLink="/cartoons" class="btn btn-info">show cartoon gallery</a>
+              <a routerLink="/cartoons" class="btn btn-outline-light">show cartoon gallery</a>
                 </li>
             <li class="list-inline-item">
-              <a routerLink="/addcartoon" class="btn btn-info">make cartoon</a>
+              <a routerLink="/addcartoon" class="btn btn-outline-light">make cartoon</a>
                 </li>
           </ul>
         </div>

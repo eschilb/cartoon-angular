@@ -1,9 +1,9 @@
-<p>cartoon-form works!</p>
+
 <div class="card my-5">
   <div class="card-body">
     <form (ngSubmit)="onSubmit()" #cartoonForm="ngForm">
       <div class="form-group">
-        <label for="svg">SVG</label>
+        <label for="svg">SVG file path to add to database</label>
         <input type="text" [(ngModel)]="cartoon.svg" 
           class="form-control" 
           id="svg" 
@@ -14,7 +14,7 @@
 <!--       <div [hidden]="!svg.pristine" class="alert alert-danger">SVG is required</div> -->
 
       <button type="submit"  
-        class="btn btn-info">Submit</button>
+        class="btn btn-dark">Submit</button>
     </form>
   </div>
 </div>
