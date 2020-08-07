@@ -1,0 +1,22 @@
+svg {
+	height: 450px;
+	padding: none;
+	margin: none;
+	border: none;
+}
+
+div {
+	padding: none;
+	border: none;
+	margin: none;
+}
+
+img {
+	width: 50px;
+}
+
+button {
+	border: none;
+	color: none;
+
+}
