@@ -1,10 +1,12 @@
 
-<button (click) = "toggleCollapse()"><img src="assets/images/button1.png"></button>
-<button (click) = "toggleCollapse1()"><img src="assets/images/button2.png"></button>
-<button (click) = "toggleCollapse2()"><img src="assets/images/button3.png"></button>
-<button (click) = "toggleCollapse3()"><img src="assets/images/button4.png"></button>
-<button (click) = "toggleCollapse4()"><img src="assets/images/button5.png"></button>
-<button (click) = "toggleCollapse5()"><img src="assets/images/button6.png"></button>
+<div class="container">
+  <button (click) = "toggleCollapse()"><img src="assets/images/button1.png"></button>
+  <button (click) = "toggleCollapse1()"><img src="assets/images/button2.png"></button>
+  <button (click) = "toggleCollapse2()"><img src="assets/images/button3.png"></button>
+  <button (click) = "toggleCollapse3()"><img src="assets/images/button4.png"></button>
+  <button (click) = "toggleCollapse4()"><img src="assets/images/button5.png"></button>
+  <button (click) = "toggleCollapse5()"><img src="assets/images/button6.png"></button>
+</div>
 <div  style="width: 100px;">
 <svg
    id="svg"
@@ -272,7 +274,7 @@
          sodipodi:nodetypes="csccsscccssccccccccc" />
       </g>
   </g>
-  <g id="daria2">
+  <g id="daria2" *ngIf=!isCollapsed2>
       <g
        id="layer1"
        inkscape:groupmode="layer"
@@ -401,7 +403,7 @@
          style="fill:#005936;fill-opacity:1;stroke:#000000;stroke-width:0.579913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
   </g>
-  <g id="daria3">
+  <g id="daria3" *ngIf=!isCollapsed3>
       <g
          id="layer1"
          inkscape:groupmode="layer"
@@ -529,7 +531,7 @@
            style="fill:#005936;fill-opacity:1;stroke:#000000;stroke-width:0.579913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
   </g>
-  <g id="daria4">
+  <g id="daria4" *ngIf=!isCollapsed4>
       <g
          id="layer1"
          inkscape:groupmode="layer"
@@ -658,7 +660,7 @@
            style="fill:#005936;fill-opacity:1;stroke:#000000;stroke-width:0.579913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
         </g>
   </g>
-  <g id="daria5">
+  <g id="daria5" *ngIf=!isCollapsed5>
       <g
          id="layer1"
          inkscape:groupmode="layer"
