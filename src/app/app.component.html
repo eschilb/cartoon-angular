@@ -3,7 +3,8 @@
     <div class="col-md-12">
       <div class="card my-5 bg-dark">
         <div class="card-body">
-          <h2 class="card-title text-center py-3 text-light" >{{ title }}</h2>
+          <h2 class="card-title text-center py-3 text-light">{{ title }}</h2>
+          <h3 class="card-title text-center text-light">{{description}}</h3>
           <ul class="text-center list-inline py-3">
             <li class="list-inline-item">
               <a routerLink="/cartoons" class="btn btn-outline-light">show cartoon gallery</a>
@@ -12,8 +13,11 @@
               <a routerLink="/addcartoon" class="btn btn-outline-light">make cartoon</a>
                 </li>
           </ul>
+          <app-svg></app-svg>
         </div>
+
       </div>
+      
       <router-outlet></router-outlet>
     </div>
   </div>
