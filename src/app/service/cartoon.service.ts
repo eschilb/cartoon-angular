@@ -11,7 +11,7 @@ export class CartoonService {
 private cartoonsUrl: string;
 
   constructor(private http: HttpClient) {
-    this.cartoonsUrl = 'http://localhost:8080/cartoons';
+    this.cartoonsUrl = 'https://hidden-sierra-27827.herokuapp.com/cartoons';
   }
 
   public findAll(): Observable<Cartoon[]> {
